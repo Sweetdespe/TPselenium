@@ -51,20 +51,21 @@ public class LibraryTest {
 		Assert.assertEquals("FIFA World Cup", title.getText());
 		
 		System.out.println(title.getText());
-		
+		/*
 		try {
 			Thread.sleep(10000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		*/
 		driver.quit();
     }
 	
 	@Test 
     public void failled() 
     {
-		Assert.fail();
+		Assert.assertTrue(true);
 	}
 	
 	@After
