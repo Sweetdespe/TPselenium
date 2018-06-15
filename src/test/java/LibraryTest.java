@@ -61,6 +61,12 @@ public class LibraryTest {
 		driver.quit();
     }
 	
+	@Test 
+    public void failled() 
+    {
+		Assert.fail();
+	}
+	
 	@After
 	public void quit() {
 		driver.quit();
